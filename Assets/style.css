@@ -1,0 +1,127 @@
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+
+#why {
+  text-align: center;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width:767px){
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  #lezioni .row{
+    background-color: #F2F2CD;
+    margin-top: 0;
+  }
+  
+  h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  
+  #lezioni .row .right{
+    margin-top: 50px;
+  }
+
+  #steps .row{
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  #why .row{
+    background-color: #F2F2CD;
+    margin-top: 10px;
+  }
+  
+  .central, .right, .second img, .third img{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width:768px)
+and (max-width:991px) {
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+  }
+
+  #lezioni .row{
+    background-color: rgb(203, 248, 203);
+    margin-top: 0;
+  }
+  
+  h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  
+  #lezioni .row .right{
+    margin-top: 60px;
+  }
+
+  #steps .row{
+    background-color: white;
+    margin-top: 30px;
+  }
+  
+  #why .row{
+    background-color: rgb(203, 248, 203);
+    margin-top: 20px;
+  }
+  
+  .central, .right, .second img, .third img{
+    margin-top: 30px;
+  }
+}
